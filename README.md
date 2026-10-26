@@ -37,7 +37,9 @@ Un Data Pipeline financiero de nivel empresarial diseñado con **Arquitectura Me
 
     [Orquestación: Apache Airflow (Docker)]  ◄---►  [CI/CD: GitHub Actions + Pytest]
 ```
+El proyecto implementa una canalización de datos (Data Pipeline) basada en la arquitectura Medallón (Bronce, Plata, Oro) para el procesamiento de datos del mercado, orquestada mediante Apache Airflow y con despliegue automatizado vía CI/CD.
 
+![Diagrama de Arquitectura del Pipeline de Datos](market_data_pipeline_architecture.jpg)
 ---
 
 ## 📂 Estructura del Repositorio
